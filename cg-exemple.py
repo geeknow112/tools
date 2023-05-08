@@ -1,7 +1,7 @@
 import os
 import openai
 import sys
-#openai.organization = "org-***********************************"
+#openai.organization = "org-*******************************"
 
 # APIキー
 ## set-hack-note
