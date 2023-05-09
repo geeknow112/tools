@@ -17,7 +17,7 @@ if [ $A = $B ]; then
 
 elif [ $A = $C ]; then
     echo "zenn"
-    	sudo python3 "${tools}/cg-exemple.py" < "${zenn}/memo" > "${tools}/article.log" && sudo cp -p "${tools}/article.log" "${zenn}/articles/$2"
+    	sudo python3 "${tools}/cg-exemple.py" < "${memo}/test1.md" > "${tools}/article.log" && sudo cp -p "${tools}/article.log" "${zenn}/articles/$2"
 #        sudo python3 /home/tmp_github/tools/cg-exemple.py < /home/tmp_github/memo/test1.md > /home/tmp_github/tools/article.log &&
 #        sudo cp -p /home/tmp_github/tools/article.log /home/tmp_github/zenn-content/articles/$2
 
