@@ -1,13 +1,14 @@
 import os
 import openai
 import sys
-#openai.organization = "org-*******************************"
+import json
+
+api_key = open('/home/.openai/api_key.json', 'r')
+json_load = json.load(api_key)
 
 # APIキー
-## set-hack-note
-#openai.api_key = "sk-***************************************"
 ## test-hack-note
-openai.api_key = "sk-***************************************"
+openai.api_key = json_load['api_key']['test-hack-note']
 
 # 疎通確認のために、エンジン一覧を取得する
 engines = openai.Engine.list()
