@@ -1,0 +1,16 @@
+
+vim-use-mindmap.md
+【基礎】vimでマインドマップ！おススメ使い方
+
+sudo chmod 777 vim-use-mindmap.md
+
+# zenn
+sudo cat /home/tmp_github/tools/tmp/code_zenn.md /home/tmp_github/tools/article.log /home/tmp_github/tools/tmp/ad_1.md > ./github-gist-push.md
+
+sudo sh /home/tmp_github/tools/tmp/ch_code.sh github-gist-push.md "【解決】cloneしたgistをvimで編集してpushする方法" “🐈” "tech" ‘”github”, “gist”, “問題”’
+
+# qiita
+$ sudo cat /home/tmp_github/tools/tmp/code_qiita.md /home/tmp_github/tools/article.log /home/tmp_github/tools/tmp/ad_1.md > ./github-gist-push.md
+sudo sh /home/tmp_github/tools/tmp/ch_code_qiita.sh google-bard-fist-step.md "【解決】cloneしたgistをvimで編集してpushする方法" “GitHub,gist”
+
+sudo sh /home/tmp_github/tools/tools_ch_type.sh github-gist-push.md
