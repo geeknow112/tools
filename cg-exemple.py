@@ -8,7 +8,7 @@ json_load = json.load(api_key)
 
 # APIキー
 ## test-hack-note
-openai.api_key = json_load['api_key']['test-hack-note']
+openai.api_key = json_load['api_key']['new-hack-note']
 
 # 疎通確認のために、エンジン一覧を取得する
 engines = openai.Engine.list()

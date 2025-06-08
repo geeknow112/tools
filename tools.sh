@@ -15,7 +15,8 @@ hack="${GIT_DIR}/hack-note-sync"
 # qiita
 if [ $A = $B ]; then
     echo "qiita"
-    	sudo python3 "${tools}/cg-exemple.py" < "${qiita}/memo" > "${tools}/article.log" && sudo cp -p "${tools}/article.log" "${qiita}/articles/$2"
+    	sudo cp -p "${tools}/article.log" "${qiita}/articles/$2"
+#    	sudo python3 "${tools}/cg-exemple.py" < "${qiita}/memo" > "${tools}/article.log" && sudo cp -p "${tools}/article.log" "${qiita}/articles/$2"
 
 elif [ $A = $C ]; then
     echo "zenn"
